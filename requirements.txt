@@ -1,0 +1,12 @@
+numpy
+matplotlib
+seaborn
+pandas
+scipy
+ipykernel
+notebook
+ipywidgets
+plotly
+ipython
+datascience
+otter-grader

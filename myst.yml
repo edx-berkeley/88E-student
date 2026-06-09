@@ -1,0 +1,127 @@
+version: 1
+project:
+  title: DATA 88E Materials
+  description: Public lecture and lab notebooks for DATA 88E Economic Models, UC Berkeley
+    edX xSeries
+  authors:
+  - name: DATA 88E Course Staff
+  github: edx-berkeley/88E-student
+  license: CC-BY-NC-4.0
+  jupyter:
+    binder:
+      repo: edx-berkeley/88E-student
+      ref: main
+      url: https://mybinder.org
+    kernelName: python3
+  exclude:
+  - README.md
+  - LICENSE.md
+  toc:
+  - file: intro.md
+  - title: Getting Started
+    file: lec/lec00/lec00.ipynb
+  - title: Part 1 — Fundamentals of Economics
+    children:
+    - title: Lecture 1 — Demand
+      children:
+      - title: 'Lecture Notebook 1.2a: Creating a Demand Curve'
+        file: lec/lec01/1.2a-demand-curve.ipynb
+      - title: 'Lecture Notebook 1.2b: Empirical Demand Curves'
+        file: lec/lec01/1.2b-avocados.ipynb
+      - title: 'Lecture Notebook 1.3: A Quick Look at the Inverse Demand Curves for
+          Beer'
+        file: lec/lec01/1.3-beers.ipynb
+    - title: Lecture 2 — Supply
+      children:
+      - title: 'Lecture Notebook 2.1: Supply Curves'
+        file: lec/lec02/2.1-Supply.ipynb
+      - title: 'Lecture Notebook 2.2: SymPy & Market Equilibrium'
+        file: lec/lec02/2.2-sympy.ipynb
+      - title: 'Lecture Notebook 2.3a: California Energy'
+        file: lec/lec02/2.3a-california-energy.ipynb
+      - title: 'Lecture Notebook 2.3b: A Really Hot Tuesday'
+        file: lec/lec02/2.3b-a-really-hot-tuesday.ipynb
+    - title: Lecture 3 — Taxes, Government Intervention, and Welfare
+      children:
+      - title: 'Lecture Notebook 3.2: Plotting Externalities'
+        file: lec/lec03/3.2-externalities.ipynb
+      - title: 'Lecture Notebook 3.3: Four Plot'
+        file: lec/lec03/3.3-four-plot.ipynb
+    - title: Labs
+      children:
+      - title: 'Lab 1: Demand'
+        file: lab/1/lab01/lab01.ipynb
+      - title: Lab 2
+        file: lab/1/lab02/lab02.ipynb
+      - title: 'Lab 3: Taxes, Government Intervention, and Welfare'
+        file: lab/1/lab03/lab03.ipynb
+  - title: Part 2 — Advanced Concepts in Economics
+    children:
+    - title: Lecture 4 — Macroeconomics
+      children:
+      - title: 'Lecture Notebook 4.2: Cobb-Douglas Regression and Penn World Tables'
+        file: lec/lec04/4.2-pennwt.ipynb
+      - title: 'Lecture Notebook 4.3: Macroeconomic Indicators'
+        file: lec/lec04/4.3-macro-indicators-YC.ipynb
+      - title: 'Lecture Notebook 4.3: Macroeconomic Indicators'
+        file: lec/lec04/4.3-macro-indicators.ipynb
+      - title: 'Lecture Notebook 4.4: Macroeconomics Laws'
+        file: lec/lec04/4.4-macro-laws.ipynb
+    - title: Lecture 5 — Utility
+      children:
+      - title: 'Lecture Notebook 5.1: Budget Constraints and Utility Maximization'
+        file: lec/lec05/budget-constraints.ipynb
+      - title: 'Lecture Notebook 5.2: Utility Functions and Indifference Curves'
+        file: lec/lec05/5.2-utility.ipynb
+      - title: 'Lecture Notebook 5.3: Optimization from QuantEcon'
+        file: lec/lec05/5.3-QuantEcon-Optimization.ipynb
+      - title: 'Lecture Notebook 5.4: Writing Equations in LaTeX'
+        file: lec/lec05/5.4-latex.ipynb
+    - title: Lecture 6 — Inequality and Development
+      children:
+      - title: 'Lecture Notebook 6.1: Measurements of Inequality'
+        file: lec/lec06/6.1-inequality.ipynb
+      - title: 'Lecture Notebook 6.2: Income Inequality Historically'
+        file: lec/lec06/historical-inequality.ipynb
+      - title: 'Lecture Notebook 6.3: Water Guard Randomized Controlled Trial'
+        file: lec/lec06/6.3_waterguard.ipynb
+    - title: Labs
+      children:
+      - title: 'Lab 4: The Cobb-Douglas Production Function and Macroeconomic Policy'
+        file: lab/2/lab04/lab04.ipynb
+      - title: 'Lab 5: Utility & LaTeX'
+        file: lab/2/lab05/lab05.ipynb
+      - title: 'Lab 6: Modeling Income Inequality & Development'
+        file: lab/2/lab06/lab06.ipynb
+  - title: Part 3 — Real-World Applications of Economics
+    children:
+    - title: Lecture 7 — Game Theory
+      file: lec/lec07/7.2-prisoner-dilemma.ipynb
+    - title: Lecture 8 — Econometrics
+      children:
+      - title: 'Lecture Notebook 8.1: Simple Linear Regression'
+        file: lec/lec08/8.1-slr.ipynb
+      - title: 'Lecture Notebook 8.2: Multiple Linear Regression'
+        file: lec/lec08/8.2-mlr.ipynb
+    - title: Lecture 9 — Environmental Economics
+      file: lec/lec09/9.1-mac.ipynb
+    - title: Lecture 10 — Finance
+      file: lec/lec10/10.1-finance-yahoo.ipynb
+    - title: Labs
+      children:
+      - title: 'Lab 7: Game Theory'
+        file: lab/3/lab07/lab07.ipynb
+      - title: 'Lab 8: Econometrics'
+        file: lab/3/lab08/lab08.ipynb
+      - title: Lab 9
+        file: lab/3/lab09/lab09.ipynb
+      - title: 'Lab 10: Finance'
+        file: lab/3/lab10/lab10.ipynb
+site:
+  template: book-theme
+  options:
+    favicon: favicon.ico
+    logo_text: DATA 88E Materials
+    hide_authors: true
+    hide_myst_branding: true
+    hide_outline: false
