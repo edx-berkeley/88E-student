@@ -24,17 +24,17 @@ EXIT_ERROR = 2
 
 PART_CONFIG = {
     "1": {
-        "title": "Part 1 — Fundamentals of Economics",
+        "title": "Part 1 - Fundamentals of Economics",
         "lectures": ["01", "02", "03"],
         "lab_part": "1",
     },
     "2": {
-        "title": "Part 2 — Advanced Concepts in Economics",
+        "title": "Part 2 - Advanced Concepts in Economics",
         "lectures": ["04", "05", "06"],
         "lab_part": "2",
     },
     "3": {
-        "title": "Part 3 — Real-World Applications of Economics",
+        "title": "Part 3 - Real-World Applications of Economics",
         "lectures": ["07", "08", "09", "10"],
         "lab_part": "3",
     },
@@ -42,16 +42,16 @@ PART_CONFIG = {
 
 LECTURE_TITLES = {
     "00": "Getting Started",
-    "01": "Lecture 1 — Demand",
-    "02": "Lecture 2 — Supply",
-    "03": "Lecture 3 — Taxes, Government Intervention, and Welfare",
-    "04": "Lecture 4 — Macroeconomics",
-    "05": "Lecture 5 — Utility",
-    "06": "Lecture 6 — Inequality and Development",
-    "07": "Lecture 7 — Game Theory",
-    "08": "Lecture 8 — Econometrics",
-    "09": "Lecture 9 — Environmental Economics",
-    "10": "Lecture 10 — Finance",
+    "01": "Lecture 1 - Demand",
+    "02": "Lecture 2 - Supply",
+    "03": "Lecture 3 - Taxes, Government Intervention, and Welfare",
+    "04": "Lecture 4 - Macroeconomics",
+    "05": "Lecture 5 - Utility",
+    "06": "Lecture 6 - Inequality and Development",
+    "07": "Lecture 7 - Game Theory",
+    "08": "Lecture 8 - Econometrics",
+    "09": "Lecture 9 - Environmental Economics",
+    "10": "Lecture 10 - Finance",
 }
 
 
